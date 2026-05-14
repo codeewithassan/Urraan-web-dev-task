@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.sec-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 50px 60px;
+    max-width: 90vw;
+    margin: auto;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head-2{
+    margin-top: 70px;
+}
+.logo-img{
+    width: 300px;
+}
+.store-img{
+    width: 200px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.top-screen-img img{
+    height: 500px;
+}
+.items-content{
+    /* font-family: sans-serif; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0 0 60px 0;
+}
+.items-content h2{
+    letter-spacing: 4px;
+}
+.items-content p{
+    color: grey;
+    font-size: 20px;
+}
+.section-2{
+    max-width: 90vw;
+    margin: auto;
+}
+.section-2-a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-2-b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-screen-content,
+.thh-screen-content,
+.for-screen-content{
+    font-weight: 300;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.sec-screen-content h4,
+.thh-screen-content h4,
+.for-screen-content h4{
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+
+}
+.sec-screen-content p,
+.thh-screen-content p,
+.for-screen-content p
+{
+    color: #666;
+    letter-spacing: 2px;
+}
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    max-width: 90vw;
+    margin: auto;
+}
+.for-screen-content img{
+    margin :0 70px 100px 0;
+}
+.for-screen-img{
+    margin-top: 50px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 100px;
+}
+.footer-para{
+    font-size: 20px;
+}
+.footer-para span{
+    color: rgb(23, 122, 221);
+    cursor: pointer;
+    font-weight: bold;
+}
