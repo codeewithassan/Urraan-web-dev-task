@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @theme{
-    --breakpoint-md: 769px;
+    /* --breakpoint-md: 769px; */
 }
 @utility yellow-stroke {
   position: relative;
